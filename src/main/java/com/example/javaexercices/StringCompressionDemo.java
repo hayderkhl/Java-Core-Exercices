@@ -6,7 +6,7 @@ import java.util.Map;
 public class StringCompressionDemo {
 
     public static void main(String[] args) {
-        String str = "loojjuajabbaggg";
+        String str = "loojjuajabbagggggg";
 
         // the difference between using HashMap and LinkedHashMap
         //HashMap will order the alphabet

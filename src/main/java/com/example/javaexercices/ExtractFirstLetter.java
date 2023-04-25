@@ -16,8 +16,8 @@ public class ExtractFirstLetter {
         // write an array to consome in java
         System.out.println(Arrays.toString(words));
         for (int i = 0 ; i < words.length; i++) {
-            String s = words[i];
-            System.out.println(s.charAt(0));
+            //String s = words[i];
+            System.out.println(words[i].charAt(0));
         }
     }
 

@@ -43,12 +43,13 @@ public class SumArray {
         distinctNumbers.forEach( number ->{
             int multipliedNumber = number * 2;
             newarrayList.add(multipliedNumber);
+
         });
 
         System.out.println("ArrayList after multiplication :");
         System.out.println(newarrayList);
 
-        // I want to multiply by 3 the integers in my last arrayList which have a even index
+        // I want to multiply by 3 the integers in my list arrayList which have a even index
 
         for (int j =0 ; j < newarrayList.size(); j++) {
             if (j % 2 ==0) {
@@ -67,10 +68,5 @@ public class SumArray {
         Collections.sort(newarrayList, Collections.reverseOrder());
         System.out.println("inverse sort array list");
         System.out.println(newarrayList);
-
-
-
-
-
     }
 }

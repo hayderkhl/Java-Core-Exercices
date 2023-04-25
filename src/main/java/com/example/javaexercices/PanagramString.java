@@ -6,7 +6,7 @@ public class PanagramString {
 
 //Panagram mean the string contain all the alphabet !
 
-        String string = "azertyuiopqsdfghjklmwxcv";
+        String string = "azertyuiopmlkjhgfdsqwxcvbn";
 
         System.out.println(isPanagram(string.toLowerCase()));
     }
