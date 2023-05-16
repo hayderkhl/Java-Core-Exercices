@@ -2,7 +2,7 @@ package com.example.javaexercices;
 
 import java.util.Arrays;
 
-public class Test4 {
+public class SwaptheFirstAndTheLast {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,12 @@ public class Test4 {
          chars[s.length()-1] = temps;
 
          String s1 =  new String(chars);
-         System.out.println(s1);
+
+        System.out.println(Arrays.toString(chars));
+
+        System.out.println(s1);
+
+        System.out.println(swapFirstAndLast("money"));
     }
 
     public static String swapFirstAndLast(String s) {

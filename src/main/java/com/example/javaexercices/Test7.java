@@ -21,7 +21,10 @@ public class Test7 {
 
        // Collections.shuffle(languages);  we use this to shuffle the element inside an arrayList!
 
+        // to extract a part of an ArrayList
 //        List<Integer> sub_nbrs = nbrs.subList(4, 7);
 //        System.out.println("La partie extrait: " + sub_nbrs);
+
+        //we can use this :  nbrs.ensureCapacity(5); to increase the size of an arrayList
     }
 }
